@@ -1,9 +1,10 @@
 // IndexController.js
 
-//angular.module('myApp')
-//    .controller('IndexController', ['$scope',
-//    function ($scope) {
 
-//        $scope.Heading = "Index Page";
+angular
+    .module('myApp')
+    .controller('IndexController', IndexController);
 
-//    }]);
+function IndexController($scope) {
+    $scope.Heading = "Index Page";
+}

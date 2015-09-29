@@ -1,9 +1,9 @@
 // AnotherPageController.js
 
-//angular.module('myApp')
-//    .controller('AnotherPageController', ['$scope',
-//    function ($scope) {
+angular
+    .module('myApp')
+    .controller('AnotherPageController', AnotherPageController);
 
-//        $scope.Heading = "Another Page";
-
-//    }]);
+function AnotherPageController($scope) {
+    $scope.Heading = "Another Page";
+}

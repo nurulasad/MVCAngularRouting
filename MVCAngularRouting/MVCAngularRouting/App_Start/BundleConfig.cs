@@ -16,8 +16,9 @@ namespace MVCAngularRouting
                         "~/Scripts/angular-route.min.js"));
 
             bundles.Add(new ScriptBundle("~/bundles/angular-project").Include(
-                        "~/Scripts/Controllers/*.js",
-                        "~/Scripts/Modules/*.js"));
+                        "~/Scripts/Modules/*.js",
+                        "~/Scripts/Controllers/*.js"
+                        ));
 
             bundles.Add(new ScriptBundle("~/bundles/jqueryval").Include(
                         "~/Scripts/jquery.validate*"));

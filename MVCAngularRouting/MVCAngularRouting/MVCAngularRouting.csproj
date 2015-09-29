@@ -49,10 +49,6 @@
       <Private>True</Private>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
-    <Reference Include="RouteDebugger, Version=2.1.4.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\routedebugger.2.1.4.0\lib\net40\RouteDebugger.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
@@ -1020,9 +1016,6 @@
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
     <Content Include="Views\Shared\_AngularLayout.cshtml" />
     <Content Include="Views\Angular\Index.cshtml" />
-    <Content Include="Views\Templates\Index.cshtml" />
-    <Content Include="Views\Templates\another-page.cshtml" />
-    <Content Include="Views\Templates\page-not-found.cshtml" />
     <Content Include="Scripts\version.json" />
   </ItemGroup>
   <ItemGroup>

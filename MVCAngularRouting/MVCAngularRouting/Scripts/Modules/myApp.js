@@ -38,18 +38,3 @@ myApp.config(['$routeProvider', '$locationProvider',
     }]);
 
 
-myApp.controller('IndexController', ['$scope',
-    function ($scope) {
-
-        $scope.Heading = "Index Page";
-
-    }]);
-
-
-myApp
-    .controller('AnotherPageController', ['$scope',
-    function ($scope) {
-
-        $scope.Heading = "Another Page";
-
-    }]);
