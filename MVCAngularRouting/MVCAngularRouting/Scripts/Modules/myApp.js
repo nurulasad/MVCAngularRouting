@@ -1,6 +1,9 @@
-var myApp = angular.module('myApp', ['ngRoute']);
+(function () {
+    'use strict'
 
-myApp.config(['$routeProvider', '$locationProvider',
+    var myApp = angular.module('myApp', ['ngRoute']);
+
+    myApp.config(['$routeProvider', '$locationProvider',
     function ($routeProvider, $locationProvider) {
         var baseSiteUrlPath = $("base").first().attr("href");
 
@@ -36,5 +39,9 @@ myApp.config(['$routeProvider', '$locationProvider',
         $locationProvider.html5Mode(true);
 
     }]);
+})();
+
+
+
 
 
