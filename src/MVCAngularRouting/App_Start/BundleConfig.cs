@@ -12,12 +12,12 @@ namespace PatientData
                         "~/Scripts/jquery-{version}.js"));
 
             bundles.Add(new ScriptBundle("~/bundles/angular").Include(
-                       "~/Scripts/angular.js",
-                       "~/Scripts/angular-route.min.js"));
+                       "~/Scripts/Angular/angular.js",
+                       "~/Scripts/Angular/angular-route.min.js"));
 
             bundles.Add(new ScriptBundle("~/bundles/angular-project").Include(
-                        "~/Scripts/Modules/*.js",
-                        "~/Scripts/Controllers/*.js"
+                        "~/Scripts/Angular/Modules/*.js",
+                        "~/Scripts/Angular/Controllers/*.js"
                         ));
 
             // Use the development version of Modernizr to develop with and learn from. Then, when you're

@@ -21,6 +21,12 @@
             controller: 'AnotherPageController',
         });
 
+        $routeProvider.when('/angular/pius-home',
+       {
+           templateUrl: baseTemplateUrl + 'pius-home.html',
+           controller: 'PIUSHomeController',
+       });
+
         $routeProvider.when('/angular/page-not-found',
         {
             templateUrl: baseTemplateUrl + 'page-not-found.html',
