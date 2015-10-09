@@ -1,0 +1,17 @@
+﻿<form name="myForm" ng-controller="RadioController">
+    <label>
+        <input type="radio" ng-model="color.name" value="red" ng-click="onRadioChange(color)">
+        Red
+    </label><br />
+    <label>
+        <input type="radio" ng-model="color.name" ng-value="specialValue" ng-click="onRadioChange(color)">
+        Green
+    </label><br />
+    <label>
+        <input type="radio" ng-model="color.name" value="blue" ng-click="onRadioChange(color)">
+        Blue
+    </label><br />
+    <tt>color = {{color.name | json}}</tt><br />
+    <div>text = {{text}}</div> 
+</form>
+ Note that `ng-value="specialValue"` sets radio item's value to be the value of `$scope.specialValue`.

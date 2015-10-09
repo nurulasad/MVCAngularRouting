@@ -21,6 +21,12 @@
             controller: 'AnotherPageController',
         });
 
+        $routeProvider.when('/angular/component-radio',
+        {
+            templateUrl: baseTemplateUrl + 'component-radio.html',
+            controller: 'RadioController',
+        });
+
         $routeProvider.when('/angular/pius-home',
        {
            templateUrl: baseTemplateUrl + 'pius-home.html',

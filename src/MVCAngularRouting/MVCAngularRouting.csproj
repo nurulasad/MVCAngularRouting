@@ -211,6 +211,7 @@
     <Compile Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="angular\app\templates\component-radio.html" />
     <Content Include="angular\app\templates\pius-home.html" />
     <Content Include="angular\app\templates\another-page.html" />
     <Content Include="angular\app\templates\Index.html" />
@@ -246,6 +247,7 @@
     <Content Include="Scripts\Angular\angular-touch.min.js" />
     <Content Include="Scripts\Angular\angular.js" />
     <Content Include="Scripts\Angular\angular.min.js" />
+    <Content Include="Scripts\Angular\Controllers\RadioController.js" />
     <Content Include="Scripts\Angular\Controllers\PIUSHomeController.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
