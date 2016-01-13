@@ -192,6 +192,7 @@
     <Compile Include="Areas\HelpPage\SampleGeneration\TextSample.cs" />
     <Compile Include="Areas\HelpPage\XmlDocumentationProvider.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\DirectiveController.cs" />
     <Compile Include="Controllers\AngularController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\CustomersController.cs" />
@@ -247,6 +248,7 @@
     <Content Include="Scripts\Angular\angular-touch.min.js" />
     <Content Include="Scripts\Angular\angular.js" />
     <Content Include="Scripts\Angular\angular.min.js" />
+    <Content Include="Scripts\Angular\Controllers\customerController.js" />
     <Content Include="Scripts\Angular\Controllers\RadioController.js" />
     <Content Include="Scripts\Angular\Controllers\PIUSHomeController.js" />
     <Content Include="Scripts\bootstrap.js" />
@@ -1051,6 +1053,7 @@
     <Content Include="Views\Angular\Index.cshtml" />
     <Content Include="Views\Shared\_AngularLayout.cshtml" />
     <Content Include="Scripts\version.json" />
+    <Content Include="Views\Directive\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
